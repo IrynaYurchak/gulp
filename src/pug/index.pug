@@ -1,0 +1,85 @@
+extends common/layout
+
+block content
+  main.main-content
+  section.dreamshare
+    h4.section-title How Dreamshare works?
+    .dreamshare__content
+      .step-1
+        button.step(type='button') STEP 1
+        h5.step-title Sed leo enim, condimentum
+        p.step-content
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+          | rhoncus
+          | a leo sit amet facilisis.
+      .step-2
+        button.step.step2(type='button') STEP 2
+        h5.step-title.step2 Morbi velit risus
+        p.step-content
+          | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet
+          | porttitor est.
+      .step-3
+        button.step(type='button') STEP 3
+        h5.step-title Sed leo enim, condimentum
+        p.step-content
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec
+          | rhoncus a leo sit amet facilisis.
+  section.partners
+    h4.section-title.small-size Meet a partner for your best holiday
+    .partners__list-all
+      .partners__info1
+        .partners__photo-1
+          img.photo(src='images/Bitmap4-min.png', alt='partners-photo')
+        h5.partners__name1 Bradley Hunter
+        p.partners__text1 Based in Chicago. I love playing tennis and loud music.
+      .partners__info2
+        .partners__photo-2
+          img.photo(src='images/Bitmap5-min.png', alt='partners-photo')
+        h5.partners__name2 Marie Bennett
+        p.partners__text2
+          | Currently living in Colorado. Lover of art, languages and travelling.
+      .partners__info3
+        .partners__photo-3
+          img.photo(src='images/Bitmap6-min.png', alt='partners-photo')
+        h5.partners__name3 Diana Wells
+        p.partners__text3
+          | Living in Athens, Greece. I love black and white classics, chillout
+          | music and green tea.
+      .partners__info4
+        .partners__photo-4
+          img.photo(src='images/Bitmap7-min.png', alt='partners-photo')
+        h5.partners__name4 Christopher Pierce
+        p.partners__text4
+          | Star Wars fanatic. I have a persistent enthusiasm to create new
+          | things.
+    .button
+      button.partners-all(type='button') See other partners
+  section.activity
+    h4.section-title Discover holiday activity ideas
+    .block
+      .activity-1
+        h6 Sports and Activis
+      .activity-2
+        h6 Wellness and Health
+      .activity-3
+        h6
+          | Extreme Sports
+          | and Expeditions
+    .block
+      .activity-4
+        h6  Games
+      .activity-5
+        h6 Culture and Education
+    .block
+      .activity-6
+        h6 Enjomet and Relaxation
+      .activity-7
+        h6 Trevelling
+  section.search
+    div
+      h4.section-title Crate your holiday activity
+      p Hi! What are your holiday interests?
+      .search__block
+        form.search__form
+          input.text(type='text', placeholder='Enter your insterests')
+          button.search__button(type='button') Search partners
